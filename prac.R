@@ -37,7 +37,7 @@ pw <- predict(model,newh)
 
 print(pw)
 
-plot(x,y,col = "blue",main ="HEIGHT VS WEIGHT REGRESSION",
+plot(x,y,col = "blue",main ="HEIGHT AND WEIGHT REGRESSION",
 xlab= "height in cm",ylab="Weight in kg ",pch=16,cex=1.3)
 
 abline(model,lwd=2,col="red")
